@@ -1,7 +1,10 @@
 <!--
 
-author: Sascha El-Sharkawy
-
+author:   Sascha El-Sharkawy
+email:    sascha@example.com
+version:  1.0.0
+language: en
+title:    The Beginner's Guide to React
 -->
 
 
