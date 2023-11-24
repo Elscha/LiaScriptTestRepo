@@ -68,7 +68,7 @@ Parsing and display of math equations is included in this blog template. Parsing
 Using matrix notation, let $n$ denote the number of observations and $k$ denote the number of regressors.
 
 
-# The Beginner's Guide to React
+# The Beginner's Guide to React 2
 
 Course Description
 
