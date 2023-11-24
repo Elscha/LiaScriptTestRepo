@@ -72,17 +72,17 @@ Using matrix notation, let $n$ denote the number of observations and $k$ denote 
 
 Course Description
 
-## Installation
+## Installation2
 
 Optional chapters with optional descriptions
 
-### Start a New React Project
+### Start a New React Project2
 
 Description of a Nano-Module
 
 <section>
 
-# Introduction
+# Introduction2
 
 </section>
 
@@ -96,7 +96,7 @@ Parsing and display of math equations is included in this blog template. Parsing
 
 <section>
 
-# Deriving the OLS Estimator
+# Deriving the OLS Estimator2
 
 </section>
 
@@ -104,13 +104,13 @@ Parsing and display of math equations is included in this blog template. Parsing
 
 Using matrix notation, let $n$ denote the number of observations and $k$ denote the number of regressors.
 
-### Add React to a Website
+### Add React to a Website2
 
 Description of the 2nd Nano-Module
 
 <section>
 
-# Introduction
+# Introduction3
 
 </section>
 
@@ -122,7 +122,7 @@ Parsing and display of math equations is included in this blog template. Parsing
 
 <section>
 
-# Deriving the OLS Estimator
+# Deriving the OLS Estimator3
 
 </section>
 
