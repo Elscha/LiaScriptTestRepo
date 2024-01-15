@@ -1,6 +1,6 @@
 <!--
 
-author: [object Object]
+author: Kent C Dodds
 
 comment: Ipsa sequi dolorem voluptatem non nisi praesentium commodi sunt. Velit ipsa qui distinctio tempora sed deserunt. Dicta qui molestiae ut cumque eum. Fugiat et excepturi omnis. Mollitia harum ratione dolores incidunt reprehenderit quis rerum eum repellat. Voluptatem omnis nostrum similique. Nisi est aliquid. Necessitatibus omnis cumque et dolor quos totam est aliquid id. Ratione ut suscipit qui praesentium. Consequuntur aut commodi deserunt tempora illum. Placeat nisi consectetur tempora ex voluptate quas nobis omnis. Est sit et.
 
@@ -8,7 +8,11 @@ date: 15.1.2024
 
 logo: https://images.unsplash.com/photo-1579403124614-197f69d8187b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80
 
+narrator: Deutsch Female
+
 title: The Beginner's Guide to React
+
+version: 1.0
 
 -->
 
@@ -36,7 +40,7 @@ Aut eos quis ut. Omnis delectus voluptas minima. Ut minima sunt. Similique ut qu
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -56,9 +60,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -132,7 +136,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -180,17 +184,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -232,9 +236,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -293,7 +297,7 @@ Blanditiis voluptatem provident doloribus aut culpa ratione. Molestias omnis num
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -313,9 +317,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -389,7 +393,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -437,17 +441,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -489,9 +493,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -550,7 +554,7 @@ Perspiciatis sit consectetur temporibus officia laborum quae. Perferendis quam a
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -570,9 +574,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -646,7 +650,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -694,17 +698,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -746,9 +750,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -807,7 +811,7 @@ Ut voluptates totam quaerat eius aut odio adipisci deleniti et. Qui aut quia qua
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -827,9 +831,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -903,7 +907,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -951,17 +955,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -1003,9 +1007,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -1071,7 +1075,7 @@ Dolorem expedita fuga aut qui id beatae id sit. Et qui praesentium sunt fugit ea
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -1091,9 +1095,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -1167,7 +1171,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -1215,17 +1219,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -1267,9 +1271,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -1328,7 +1332,7 @@ Aut velit tenetur illum dolorem amet odio. Nesciunt labore debitis sunt deleniti
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -1348,9 +1352,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -1424,7 +1428,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -1472,17 +1476,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -1524,9 +1528,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -1585,7 +1589,7 @@ Consequatur vel ex aperiam numquam nulla assumenda. Nemo reiciendis minus invent
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -1605,9 +1609,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -1681,7 +1685,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -1729,17 +1733,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -1781,9 +1785,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -1842,7 +1846,7 @@ Temporibus animi odit repellendus maiores temporibus dolor voluptatibus sunt nob
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -1862,9 +1866,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -1938,7 +1942,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -1986,17 +1990,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -2038,9 +2042,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -2099,7 +2103,7 @@ Et eum voluptas atque et libero sunt vel earum sint. Dicta adipisci consequuntur
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -2119,9 +2123,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -2195,7 +2199,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -2243,17 +2247,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -2295,9 +2299,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -2356,7 +2360,7 @@ Exercitationem dicta perspiciatis eos corrupti architecto at. Necessitatibus con
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -2376,9 +2380,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -2452,7 +2456,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -2500,17 +2504,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -2552,9 +2556,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -2613,7 +2617,7 @@ Alias voluptatem rem rerum ut error natus totam. Molestiae et animi veritatis pa
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -2633,9 +2637,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -2709,7 +2713,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -2757,17 +2761,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -2809,9 +2813,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -2870,7 +2874,7 @@ Placeat quam eos. Eveniet nostrum in. Odio delectus iure aut tempora tempore rat
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -2890,9 +2894,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -2966,7 +2970,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -3014,17 +3018,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -3066,9 +3070,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -3134,7 +3138,7 @@ Dicta ab dignissimos ut sint veritatis et quam blanditiis et. Vitae excepturi re
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -3154,9 +3158,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -3230,7 +3234,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -3278,17 +3282,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -3330,9 +3334,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -3391,7 +3395,7 @@ Labore saepe magni vel neque rem nulla nulla. Et sapiente eius ut fuga mollitia 
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -3411,9 +3415,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -3487,7 +3491,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -3535,17 +3539,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -3587,9 +3591,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -3648,7 +3652,7 @@ Tempore exercitationem ducimus ut nihil magni soluta sint. Est dolorum quia volu
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -3668,9 +3672,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -3744,7 +3748,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -3792,17 +3796,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -3844,9 +3848,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -3905,7 +3909,7 @@ Velit quis rerum. A harum voluptatum. Ut doloribus quo non rerum voluptatem.
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -3925,9 +3929,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -4001,7 +4005,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -4049,17 +4053,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -4101,9 +4105,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -4162,7 +4166,7 @@ Quos consequatur aliquam aut rerum sint eum in ullam. Porro qui consectetur fugi
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -4182,9 +4186,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -4258,7 +4262,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -4306,17 +4310,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -4358,9 +4362,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -4419,7 +4423,7 @@ Sunt a magnam reprehenderit sit reprehenderit hic. Tenetur facilis odit qui et e
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -4439,9 +4443,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -4515,7 +4519,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -4563,17 +4567,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -4615,9 +4619,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -4676,7 +4680,7 @@ Voluptas eum nobis recusandae. Nostrum ut quis ex quos aliquam. Voluptates molli
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -4696,9 +4700,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -4772,7 +4776,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -4820,17 +4824,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -4872,9 +4876,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -4940,7 +4944,7 @@ Nisi quis quis dolores neque. Sed aut nam itaque eos amet fugiat recusandae ex i
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -4960,9 +4964,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -5036,7 +5040,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -5084,17 +5088,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -5136,9 +5140,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -5197,7 +5201,7 @@ Nostrum consequatur adipisci cumque dicta laboriosam accusamus sit dicta facilis
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -5217,9 +5221,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -5293,7 +5297,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -5341,17 +5345,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -5393,9 +5397,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -5454,7 +5458,7 @@ Dicta totam voluptatibus hic est est esse qui ipsum. Est consectetur eaque liber
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -5474,9 +5478,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -5550,7 +5554,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -5598,17 +5602,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -5650,9 +5654,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -5711,7 +5715,7 @@ Quos placeat aut facere laudantium non provident eum dolorem labore. Harum eum i
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -5731,9 +5735,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -5807,7 +5811,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -5855,17 +5859,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -5907,9 +5911,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -5968,7 +5972,7 @@ Eos id aliquid et repellat et et deleniti exercitationem velit. Modi doloribus e
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -5988,9 +5992,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -6064,7 +6068,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -6112,17 +6116,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -6164,9 +6168,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -6225,7 +6229,7 @@ Delectus quam quo reiciendis et magnam sit suscipit tenetur. Neque consequatur h
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -6245,9 +6249,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -6321,7 +6325,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -6369,17 +6373,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -6421,9 +6425,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -6482,7 +6486,7 @@ Nihil et fugiat incidunt aut totam beatae. Non voluptas quo harum omnis totam. L
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -6502,9 +6506,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -6578,7 +6582,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -6626,17 +6630,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -6678,9 +6682,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -6746,7 +6750,7 @@ Dolores itaque magni qui expedita sequi quia aut. Provident quae assumenda ut as
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -6766,9 +6770,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -6842,7 +6846,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -6890,17 +6894,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -6942,9 +6946,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -7003,7 +7007,7 @@ Veniam ut assumenda laudantium rerum. Et ea sint ut incidunt animi et aut. Ipsum
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -7023,9 +7027,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -7099,7 +7103,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -7147,17 +7151,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -7199,9 +7203,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -7260,7 +7264,7 @@ Rerum laboriosam aut nihil sit tempora. Nulla voluptatibus non accusantium et li
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -7280,9 +7284,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -7356,7 +7360,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -7404,17 +7408,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -7456,9 +7460,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -7517,7 +7521,7 @@ Quia dolorum sit qui a molestiae. Consequatur commodi adipisci consequuntur volu
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -7537,9 +7541,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -7613,7 +7617,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -7661,17 +7665,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -7713,9 +7717,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -7774,7 +7778,7 @@ Iste facilis nostrum magnam in ratione minus at. Nam nam architecto labore labor
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -7794,9 +7798,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -7870,7 +7874,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -7918,17 +7922,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -7970,9 +7974,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -8031,7 +8035,7 @@ Atque ut eaque nemo voluptatum facere id veniam qui consequatur. Nostrum sunt es
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -8051,9 +8055,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -8127,7 +8131,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -8175,17 +8179,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -8227,9 +8231,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -8288,7 +8292,7 @@ Accusantium voluptate nihil ab quod maxime quia. Nisi in nulla autem nam. Sint d
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -8308,9 +8312,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -8384,7 +8388,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -8432,17 +8436,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -8484,9 +8488,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -8545,7 +8549,7 @@ Sunt id consequatur. A consequatur quaerat. In deleniti rerum. Ut ea tempore arc
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -8565,9 +8569,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -8641,7 +8645,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -8689,17 +8693,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -8741,9 +8745,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
@@ -8802,7 +8806,7 @@ Et consequuntur quia voluptatem dolorem quae. Ut quod dolor laudantium reiciendi
 
 ### Artikel
 
-<article>
+<section>
 
 # Introduction
 
@@ -8822,9 +8826,9 @@ Inline or manually enumerated footnotes are also supported. Click on the links a
 
 [^2]: \$10 and &dollar;20.
 
-</article>
+</section>
 
-<article>
+<section>
 
 # Deriving the OLS Estimator
 
@@ -8898,7 +8902,7 @@ The vector of error terms $\mathbf{U}$ is also a $n \times 1$ matrix.
 
 At times it might be easier to use vector notation. For consistency, I will use the bold small x to denote a vector and capital letters to denote a matrix. Single observations are denoted by the subscript.
 
-<article>
+<section>
 
 ## Least Squares
 
@@ -8946,17 +8950,17 @@ $$
 \end{aligned}
 $$
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Inline Highlighting
 
 Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
-</article>
+</section>
 
-<article>
+<section>
 
 ## Code Blocks
 
@@ -8998,9 +9002,9 @@ for index, fibonacci_number in zip(range(10), fib()):
      print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
 ```
 
-</article>
+</section>
 
-</article>
+</section>
 
 
 ### Lernzielkontrolle
