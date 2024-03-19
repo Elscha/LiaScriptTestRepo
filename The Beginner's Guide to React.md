@@ -4,7 +4,9 @@ author: Kent C Dodds
 
 comment: Ipsa sequi dolorem voluptatem non nisi praesentium commodi sunt. Velit ipsa qui distinctio tempora sed deserunt. Dicta qui molestiae ut cumque eum. Fugiat et excepturi omnis. Mollitia harum ratione dolores incidunt reprehenderit quis rerum eum repellat. Voluptatem omnis nostrum similique. Nisi est aliquid. Necessitatibus omnis cumque et dolor quos totam est aliquid id. Ratione ut suscipit qui praesentium. Consequuntur aut commodi deserunt tempora illum. Placeat nisi consectetur tempora ex voluptate quas nobis omnis. Est sit et.
 
-date: 15.1.2024
+date: 19.3.2024
+
+email: 
 
 logo: https://images.unsplash.com/photo-1579403124614-197f69d8187b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80
 
@@ -15,6 +17,21 @@ title: The Beginner's Guide to React
 version: 1.0
 
 -->
+
+
+# The Beginner's Guide to React
+
+Quod aut dolore quo molestiae dicta. Et voluptas eos et impedit quidem. Eos cumque unde qui quibusdam quibusdam.
+
+![Course Logo](https://images.unsplash.com/photo-1579403124614-197f69d8187b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80)
+
+Ipsa sequi dolorem voluptatem non nisi praesentium commodi sunt. Velit ipsa qui distinctio tempora sed deserunt. Dicta qui molestiae ut cumque eum.
+Fugiat et excepturi omnis. Mollitia harum ratione dolores incidunt reprehenderit quis rerum eum repellat. Voluptatem omnis nostrum similique. Nisi est aliquid.
+Necessitatibus omnis cumque et dolor quos totam est aliquid id. Ratione ut suscipit qui praesentium. Consequuntur aut commodi deserunt tempora illum. Placeat nisi consectetur tempora ex voluptate quas nobis omnis. Est sit et.
+
+**Fach:** Informatik
+
+**Spezialisierung:** Softwareentwicklung
 
 
 ## Installation
@@ -200,7 +217,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -210,7 +229,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -254,7 +273,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -274,9 +292,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -457,7 +554,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -467,7 +566,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -511,7 +610,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -531,9 +629,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -714,7 +891,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -724,7 +903,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -768,7 +947,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -788,9 +966,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -971,7 +1228,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -981,7 +1240,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -1025,7 +1284,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -1045,9 +1303,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -1235,7 +1572,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -1245,7 +1584,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -1289,7 +1628,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -1309,9 +1647,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -1492,7 +1909,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -1502,7 +1921,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -1546,7 +1965,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -1566,9 +1984,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -1749,7 +2246,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -1759,7 +2258,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -1803,7 +2302,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -1823,9 +2321,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -2006,7 +2583,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -2016,7 +2595,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -2060,7 +2639,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -2080,9 +2658,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -2263,7 +2920,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -2273,7 +2932,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -2317,7 +2976,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -2337,9 +2995,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -2520,7 +3257,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -2530,7 +3269,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -2574,7 +3313,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -2594,9 +3332,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -2777,7 +3594,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -2787,7 +3606,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -2831,7 +3650,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -2851,9 +3669,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -3034,7 +3931,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -3044,7 +3943,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -3088,7 +3987,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -3108,9 +4006,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -3298,7 +4275,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -3308,7 +4287,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -3352,7 +4331,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -3372,9 +4350,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -3555,7 +4612,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -3565,7 +4624,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -3609,7 +4668,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -3629,9 +4687,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -3812,7 +4949,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -3822,7 +4961,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -3866,7 +5005,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -3886,9 +5024,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -4069,7 +5286,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -4079,7 +5298,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -4123,7 +5342,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -4143,9 +5361,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -4326,7 +5623,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -4336,7 +5635,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -4380,7 +5679,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -4400,9 +5698,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -4583,7 +5960,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -4593,7 +5972,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -4637,7 +6016,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -4657,9 +6035,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -4840,7 +6297,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -4850,7 +6309,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -4894,7 +6353,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -4914,9 +6372,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -5104,7 +6641,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -5114,7 +6653,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -5158,7 +6697,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -5178,9 +6716,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -5361,7 +6978,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -5371,7 +6990,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -5415,7 +7034,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -5435,9 +7053,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -5618,7 +7315,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -5628,7 +7327,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -5672,7 +7371,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -5692,9 +7390,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -5875,7 +7652,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -5885,7 +7664,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -5929,7 +7708,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -5949,9 +7727,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -6132,7 +7989,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -6142,7 +8001,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -6186,7 +8045,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -6206,9 +8064,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -6389,7 +8326,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -6399,7 +8338,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -6443,7 +8382,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -6463,9 +8401,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -6646,7 +8663,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -6656,7 +8675,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -6700,7 +8719,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -6720,9 +8738,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -6910,7 +9007,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -6920,7 +9019,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -6964,7 +9063,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -6984,9 +9082,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -7167,7 +9344,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -7177,7 +9356,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -7221,7 +9400,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -7241,9 +9419,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -7424,7 +9681,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -7434,7 +9693,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -7478,7 +9737,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -7498,9 +9756,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -7681,7 +10018,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -7691,7 +10030,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -7735,7 +10074,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -7755,9 +10093,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -7938,7 +10355,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -7948,7 +10367,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -7992,7 +10411,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -8012,9 +10430,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -8195,7 +10692,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -8205,7 +10704,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -8249,7 +10748,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -8269,9 +10767,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -8452,7 +11029,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -8462,7 +11041,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -8506,7 +11085,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -8526,9 +11104,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -8709,7 +11366,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -8719,7 +11378,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -8763,7 +11422,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -8783,9 +11441,88 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
 
@@ -8966,7 +11703,9 @@ Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
 
 Some Javascript code
 
-```js {1,3-4} showLineNumbers
+
+<!-- data-marker="0 0 0 80 yellow text;2 0 3 80 yellow text;" -->
+```js
 var num1, num2, sum;
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
@@ -8976,7 +11715,7 @@ alert("Sum = " + sum); // "+" means combine into a string
 
 Some Java code
 
-```java showLineNumbers
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		int count = 0;
@@ -9020,7 +11759,6 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias dolori
 - [[ ]] Very Bad
 [[?]] Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laudantium sequi illo, veritatis labore culpa, eligendi, quod consequatur autem ad dolorem explicabo quos alias harum fuga sapiente reiciendis. Incidunt, voluptates.
 [[?]] Lorem ipsum dolor: - Eins - Zwei
-
 </section>
 
 <section>
@@ -9040,8 +11778,87 @@ input == "2"
 # Was ist 1 + 1 ?
 
 - [[Freitext]]
+
 <script>
 let input = "@input".trim()
 input != ""</script>
+
+</section>
+
+<section>
+
+# Hello World
+
+Erstelle ein Programm, welches `Hello World` auf der Konsole ausgibt.
+
+```java
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+
+```java
+public class Solution {
+	public int sum(int[] numbers) {
+		if (numbers.length == 0) {
+			return -1; // Produce failing test case
+		}
+
+	int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+		return sum;
+	}
+}
+```
+
+</section>
+
+<section>
+
+# Hello World in TypeScript
+
+Kappa
+
+```typescript
+
+
+
+```
+
+</section>
+
+<section>
+
+# Schleifen in TypeScript
+
+Implementiere einen Algorithmus, der als Eingabe eine Liste von Zahlen erhält und die Summe aller Zahlen in der Liste zurückgibt.
+
+**Beispiel:**
+
+**Eingabe**: `[1, 2, 3, 4, 5]`  
+**Ausgabe**: `15`
+
+```typescript
+export function sum(numbers: number[]): number {
+	// DEINE LÖSUNG
+	return 0;
+}
+```
 
 </section>
